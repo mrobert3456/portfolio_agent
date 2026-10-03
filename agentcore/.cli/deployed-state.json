@@ -1,0 +1,17 @@
+{
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "portfolioagent": {
+            "runtimeId": "portfolioagent_portfolioagent-gxOEUO3jez",
+            "runtimeArn": "arn:aws:bedrock-agentcore:eu-central-1:533267183890:runtime/portfolioagent_portfolioagent-gxOEUO3jez",
+            "roleArn": "arn:aws:iam::533267183890:role/AgentCore-portfolioagent--ApplicationAgentPortfolio-ef2JfiWG5kO5"
+          }
+        },
+        "stackName": "AgentCore-portfolioagent-default",
+        "deployHash": "228be3a550267737"
+      }
+    }
+  }
+}

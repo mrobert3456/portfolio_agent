@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "portfolio_agent"
+version = "0.1.0"
+description = "AgentCore agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bedrock-agentcore (>=1.15.1,<2.0.0)",
+    "fastapi>=0.139.2",
+    "mcp-proxy-for-aws>=1.6.3",
+    "strands-agents>=1.47.0",
+    "strands-agents-tools>=0.8.3",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
