@@ -7,6 +7,7 @@ This project was created with the [AgentCore CLI](https://github.com/aws/agentco
 | **Category**       | **Technology**                                      |
 | ------------------ | --------------------------------------------------- |
 | **Agent**          | Python (strands package) https://strandsagents.com/ |
+| **MCP server**     | https://github.com/mrobert3456/portfolio_mcp        |
 | **Infrastructure** | AWS Agentcore (MCP server, Strands agent, gateway)  |
 | **CI/CD**          | Github actions                                      |
 
